@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Math App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Math Learning Website</h1>
+
+<canvas id="canvas" width="300" height="200"></canvas>
+
+<br><br>
+<label>Angle: <span id="angleValue">30</span>°</label><br>
+<input type="range" id="angleSlider" min="10" max="80" value="30">
+
+<p id="values"></p>
+
+<button onclick="startGame()">Start Game</button>
+
+<p id="question"></p>
+<div id="options"></div>
+
+<p id="result"></p>
+<p id="score">Score: 0</p>
+<p id="highScore">High Score: 0</p>
+<p id="timer">Time: 10</p>
+
+<script src="script.js"></script>
+
+</body>
+</html>

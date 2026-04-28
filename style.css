@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+}
+
+h1 {
+  color: darkblue;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#options button {
+  display: block;
+  margin: 8px auto;
+  width: 120px;
+}
+
+canvas {
+  border: 2px solid black;
+  margin-top: 20px;
+  background: white;
+}
+
+#values {
+  font-size: 18px;
+  margin-top: 10px;
+  color: darkblue;
+}
+
+#score, #timer {
+  font-size: 20px;
+  font-weight: bold;
+}
